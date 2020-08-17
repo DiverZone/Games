@@ -969,7 +969,7 @@ var PACMAN = function () {
     } else if (state === WAITING && stateChanged) {
       stateChanged = false;
       map.draw(ctx);
-      dialog("Press D to start the Diver");
+      dialog("Press D to start the Diver and P to Pause");
     } else if (state === EATEN_PAUSE &&
     tick - timerStart > Pacman.FPS / 3) {
       map.draw(ctx);
